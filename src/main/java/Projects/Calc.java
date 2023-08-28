@@ -49,13 +49,5 @@ public class Calc {
         System.out.println("The answer is : " + firstNumber + " " + op + " " + secondNumber + " = " + result);
 
     }
-//    public static void shutdown(){
-//        Scanner s = new Scanner(System.in);
-//        String exit = s.nextLine();
-//        if(exit.equals("shutdown")){
-//            System.exit(0);
-//            System.out.println("Bye!!!!!");
-//        }
-//    }
 
 }
