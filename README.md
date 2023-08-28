@@ -25,7 +25,7 @@ Run the compiled program using:
 
 shell
 
-    java Calculator
+    java Simple Calculator
 
     Follow the on-screen instructions to provide two numbers and select an arithmetic operator.
 
