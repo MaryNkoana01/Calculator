@@ -46,6 +46,7 @@ public class Calc {
                 System.out.println("Invalid operator selected.");
                 return;
         }
+
         System.out.println("The answer is : " + firstNumber + " " + op + " " + secondNumber + " = " + result);
 
     }
