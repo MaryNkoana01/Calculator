@@ -12,12 +12,35 @@ public class Calc {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Please use one of this operators: [ *, +, /, - ]");
-
         System.out.println("Enter the first number: ");
-        int First_number = scan.nextInt();
+        int firstNumber = scan.nextInt();
+
         System.out.println("Enter the second number: ");
-        int Second_number = scan.nextInt();
+        int secondNumber = scan.nextInt();
+
+        System.out.println("Please use one of this operators: [ *, +, /, - ]");
+        System.out.println("Enter the second number: ");
+
+        char op = scan.next().charAt(0);
+        int result = 0;
+
+        switch (op) {
+            case '*':
+                result = firstNumber * secondNumber;
+                break;
+
+            case '+':
+                result = firstNumber + secondNumber;
+                break;
+            case '-':
+                result = firstNumber - secondNumber;
+                break;
+            default:
+                System.out.println("Invalid operator selected.");
+                return;
+        }
+        System.out.println("The answer is : " + firstNumber + " " + op + " " + secondNumber + " = " + result);
 
     }
+
 }
